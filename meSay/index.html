@@ -88,18 +88,18 @@
 
 
 
-<meta name="description" content="一个记录心情的地方 2017-12-30 23:11承诺常常很像蝴蝶，转眼之间就要和学生时代说再见了">
+<meta name="description" content="一个记录心情的地方   2018-1-1 14:12:50有些歌不知道要听多少遍才会厌倦2018，新的一年，目标是每天都要愉快的玩耍   2017-12-31 20:12:32外面跨年很热闹，而我选择在在宿舍静静听歌    2017-12-30 23:11承诺常常很像蝴蝶，转眼之间就要和学生时代说再见了        var b = new APlayer({     element: do">
 <meta property="og:type" content="website">
 <meta property="og:title" content="meSay">
 <meta property="og:url" content="https://Kkkb.github.io/meSay/index.html">
 <meta property="og:site_name" content="NexT">
-<meta property="og:description" content="一个记录心情的地方 2017-12-30 23:11承诺常常很像蝴蝶，转眼之间就要和学生时代说再见了">
+<meta property="og:description" content="一个记录心情的地方   2018-1-1 14:12:50有些歌不知道要听多少遍才会厌倦2018，新的一年，目标是每天都要愉快的玩耍   2017-12-31 20:12:32外面跨年很热闹，而我选择在在宿舍静静听歌    2017-12-30 23:11承诺常常很像蝴蝶，转眼之间就要和学生时代说再见了        var b = new APlayer({     element: do">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://kkkb.github.io/uploads/white.png">
-<meta property="og:updated_time" content="2017-12-30T15:29:59.595Z">
+<meta property="og:updated_time" content="2018-01-01T15:19:13.377Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="meSay">
-<meta name="twitter:description" content="一个记录心情的地方 2017-12-30 23:11承诺常常很像蝴蝶，转眼之间就要和学生时代说再见了">
+<meta name="twitter:description" content="一个记录心情的地方   2018-1-1 14:12:50有些歌不知道要听多少遍才会厌倦2018，新的一年，目标是每天都要愉快的玩耍   2017-12-31 20:12:32外面跨年很热闹，而我选择在在宿舍静静听歌    2017-12-30 23:11承诺常常很像蝴蝶，转眼之间就要和学生时代说再见了        var b = new APlayer({     element: do">
 <meta name="twitter:image" content="https://kkkb.github.io/uploads/white.png">
 
 
@@ -156,6 +156,36 @@
 
 
 </head>
+
+
+<div id="hexo-helper-live2d">
+  <canvas id="live2dcanvas" width="150" height="320"></canvas>
+</div>
+<style>
+  #live2dcanvas{
+    position: fixed;
+    width: 150px;
+    height: 320px;
+    opacity:0.7;
+    right: 0px;
+    z-index: 999;
+    pointer-events: none;
+    bottom: 0px;
+  }
+</style>
+<script type="text/javascript" src="/live2d/device.min.js"></script>
+<script type="text/javascript">
+const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
+(function(){
+  if((typeof(device) != 'undefined') && (device.mobile())){
+    document.getElementById("live2dcanvas").style.width = '75px';
+    document.getElementById("live2dcanvas").style.height = '160px';
+  }else
+    if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
+  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/hibiki.model.json", 0.5);});
+})();
+</script>
+
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
@@ -279,9 +309,57 @@
         
           <script src="\assets\js\APlayer.min.js"> </script><p><img src="/uploads/white.png" width="486"></p>
 
-<h2 id="一个记录心情的地方"><a href="#一个记录心情的地方" class="headerlink" title="一个记录心情的地方"></a>一个记录心情的地方</h2><blockquote>
+<h2 id="一个记录心情的地方"><a href="#一个记录心情的地方" class="headerlink" title="一个记录心情的地方"></a>一个记录心情的地方</h2><script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.6.0/APlayer.min.js"></script>
+
+<!--div class="aplayer"
+    data-id="2038899223"
+    data-server="netease"
+    data-type="playlist">
+</div>
+<script src="https://unpkg.com/meting/dist/Meting.min.js"></script-->
+<p>2018-1-1 14:12:50<br>有些歌不知道要听多少遍才会厌倦<br><span class="label primary">2018</span>，新的一年，目标是每天都要愉快的玩耍 </p>
+<hr>
+<p>2017-12-31 20:12:32<br>外面跨年很热闹，而我选择在在宿舍静静听歌</p>
+<div id="ap1" class="aplayer"></div>
+
+<hr>
 <p>2017-12-30 23:11<br>承诺常常很像蝴蝶，转眼之间就要和学生时代说再见了</p>
-</blockquote>
+<!--APlayer-->
+<script src="/uploads/music/dist/APlayer.min.js"></script>
+<script>
+    var b = new APlayer({
+    element: document.getElementById('ap1'),
+    narrow: true,
+    autoplay: false,
+    showlrc: true,
+    mutex: true,
+    showlrc: 3,
+    preload: 'metadata',
+    theme: '#fc6424',
+    mode: 'circulation',
+    listmaxheight: '150px',
+    music: 
+    {
+        title: '匿名的好友',
+        author: 'none',
+        url: 'https://t1.aixinxi.net/o_1c2m7k8uo1ggm194s8rr87d4nja.mp3',
+        pic: 'https://i.loli.net/2017/12/31/5a48e1d7aef32.jpg',
+        lrc: "",
+    },
+});</script>
+
+<!--### DPlayer-->
+<!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.17.2/DPlayer.min.css">
+<div id="dplayer1" class="dplayer"></div-->
+<!--DPlayer-->
+<!--script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.17.2/DPlayer.min.js"></script>
+<script>
+    var d = new DPlayer({
+    element: document.getElementById('dplayer1'),
+    video: {
+        url: '/uploads/mv/l.mp4',
+    },
+});</script-->
 
         
       </div>
@@ -516,7 +594,7 @@ show_date_time();
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="bolt">
     <i class="fa fa-bolt"></i>
   </span>
@@ -534,20 +612,6 @@ show_date_time();
 
 
         
-<div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="site-uv">
-      <i class="fa fa-github-alt"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
-    </span>
-  
-
-  
-</div>
-
 
 
 
