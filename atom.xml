@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Kkkb.github.io/"/>
-  <updated>2018-01-19T10:02:51.937Z</updated>
+  <updated>2018-02-18T10:13:29.704Z</updated>
   <id>https://Kkkb.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python中的词与符号</title>
+    <link href="https://Kkkb.github.io/2018/02/18/python_symbol_and_character/"/>
+    <id>https://Kkkb.github.io/2018/02/18/python_symbol_and_character/</id>
+    <published>2018-02-18T03:57:12.000Z</published>
+    <updated>2018-02-18T10:13:29.704Z</updated>
+    
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p class="description">本文总结部分python中的词与符号的名称及作用</p><!--img src="https://" alt="" style="width:100%" /--><a id="more"></a><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#基于python2</span></span><br><span class="line"><span class="comment"># print语句用于输出，内容处于单引号或双引号之间</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Hello"</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">'Hi'</span>  </span><br><span class="line"></span><br><span class="line"><span class="comment"># 井号后面的内容为注释，会被忽略</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"></span><br><span class="line"><span class="string">'''</span></span><br><span class="line"><span class="string">一些运算符</span></span><br><span class="line"><span class="string">+ plus 加号 加法运算</span></span><br><span class="line"><span class="string">- minus 减号 减法运算</span></span><br><span class="line"><span class="string">/ slash 斜杠 除法运算</span></span><br><span class="line"><span class="string">* asterisk 星号 乘法运算</span></span><br><span class="line"><span class="string">% percent 百分号 取余运算</span></span><br><span class="line"><span class="string">&lt; less-than 小于号 比较运算</span></span><br><span class="line"><span class="string">&gt; greater-than 大于号 比较运算</span></span><br><span class="line"><span class="string">&lt;= less-than-equal 小于等于号 比较运算</span></span><br><span class="line"><span class="string">&gt;= greater-than-equal 大于等于号 比较运算</span></span><br><span class="line"><span class="string">'''</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># _ underscore 下划线字符</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># %r %s %d 格式化字符串</span></span><br><span class="line"><span class="comment"># %r 不管什么都打印出来</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 字符串通常是指你想要展示给别人的、或者是你想要从程序里导出的一小段字符</span></span><br><span class="line"><span class="comment"># 字符串可以包含格式化字符</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 转义序列\n \\ \t \'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># raw_input() 读取输入</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># from sys import argv</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># open() 打开文件，并返回一个文件对象</span></span><br><span class="line"><span class="comment"># read() 读取文件内容，可将结果赋值给变量</span></span><br><span class="line"><span class="comment"># close() 关闭文件</span></span><br><span class="line"><span class="comment"># readline() 读取文本文件中的一行</span></span><br><span class="line"><span class="comment"># truncate() 清空文件</span></span><br><span class="line"><span class="comment"># write() 写入</span></span><br><span class="line"><span class="comment"># exists() 将文件名字符串作为参数，如果文件存在则返回True,否则返回False</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># def  新建函数</span></span><br><span class="line"><span class="comment"># seek()  用于移动文件读取指针到指定位置</span></span><br><span class="line"><span class="comment"># return 返回</span></span><br></pre></td></tr></table></figure><hr>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;本文总结部分python中的词与符号的名称及作用&lt;/p&gt;
+
+&lt;!--img src=&quot;https://&quot; alt=&quot;&quot; style=&quot;width:100%&quot; /--&gt;
+    
+    </summary>
+    
+      <category term="技术" scheme="https://Kkkb.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="python" scheme="https://Kkkb.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>Gakki</title>
