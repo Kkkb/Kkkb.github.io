@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Kkkb.github.io/"/>
-  <updated>2018-02-18T10:13:29.704Z</updated>
+  <updated>2018-04-08T13:20:17.218Z</updated>
   <id>https://Kkkb.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Flask</title>
+    <link href="https://Kkkb.github.io/2018/04/08/introduce-flask-web-development/"/>
+    <id>https://Kkkb.github.io/2018/04/08/introduce-flask-web-development/</id>
+    <published>2018-04-08T07:13:13.000Z</published>
+    <updated>2018-04-08T13:20:17.218Z</updated>
+    
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p class="description">Flask是一个用于开发web应用的微型框架，基于Python</p><!--img src="https://" alt="" style="width:100%" /--><a id="more"></a><blockquote><p>Flask is a micro webdevelopment framework for Python.</p></blockquote><p><a href="http://flask.pocoo.org/" target="_blank" rel="noopener">Flask</a>以扩展的形式实现数据库访问、Web表单验证和用户认证等高级功能</p><p>依赖两个外部库：<a href="http://werkzeug.pocoo.org/" target="_blank" rel="noopener">Werkzeug</a>实现WSGI(Web Server Gateway Interface)，<a href="http://jinja.pocoo.org/docs/2.10/" target="_blank" rel="noopener">Jinjia2</a>提供模板引擎</p><h1 id="一个简单的Flask-Web程序"><a href="#一个简单的Flask-Web程序" class="headerlink" title="一个简单的Flask Web程序"></a>一个简单的Flask Web程序</h1><h2 id="创建Flask实例"><a href="#创建Flask实例" class="headerlink" title="创建Flask实例"></a>创建Flask实例</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask</span><br><span class="line">app = Flask(__name__)</span><br></pre></td></tr></table></figure><h2 id="定义路由"><a href="#定义路由" class="headerlink" title="定义路由"></a>定义路由</h2><p>route()装饰器将函数和URL建立联系,从而定义一个路由<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@app.route('/')</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">index</span><span class="params">()</span>:</span></span><br><span class="line"><span class="keyword">return</span> <span class="string">'&lt;h1&gt;Hello, world!&lt;/h1&gt;'</span></span><br></pre></td></tr></table></figure></p><p>像index()这样的函数称为视图函数(view function)</p><h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">app.run(debug=<span class="keyword">True</span>)</span><br></pre></td></tr></table></figure><h1 id="一些关键概念"><a href="#一些关键概念" class="headerlink" title="一些关键概念"></a>一些关键概念</h1><h2 id="上下文"><a href="#上下文" class="headerlink" title="上下文"></a>上下文</h2><p>current_app</p><p>g</p><p>request</p><p>session</p><h2 id="请求调度"><a href="#请求调度" class="headerlink" title="请求调度"></a>请求调度</h2><p>url映射是URL与视图函数之间的对应关系</p><h2 id="请求钩子"><a href="#请求钩子" class="headerlink" title="请求钩子"></a>请求钩子</h2><p>before_first_request</p><p>before_request</p><p>after_request</p><p>teardown_request</p><h2 id="响应"><a href="#响应" class="headerlink" title="响应"></a>响应</h2><p>make_response</p><hr>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;Flask是一个用于开发web应用的微型框架，基于Python&lt;/p&gt;
+
+&lt;!--img src=&quot;https://&quot; alt=&quot;&quot; style=&quot;width:100%&quot; /--&gt;
+    
+    </summary>
+    
+    
+      <category term="Flask" scheme="https://Kkkb.github.io/tags/Flask/"/>
+    
+      <category term="Python" scheme="https://Kkkb.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>python中的词与符号</title>
@@ -182,9 +206,9 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://Kkkb.github.io/tags/Hexo/"/>
-    
       <category term="Testing" scheme="https://Kkkb.github.io/tags/Testing/"/>
+    
+      <category term="Hexo" scheme="https://Kkkb.github.io/tags/Hexo/"/>
     
   </entry>
   
