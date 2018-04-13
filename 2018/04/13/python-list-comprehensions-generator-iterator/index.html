@@ -79,7 +79,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT, 博客, K_B" />
+  <meta name="keywords" content="python," />
 
 
 
@@ -92,16 +92,15 @@
 
 
 
-<meta name="description" content="过去的单纯美好">
-<meta property="og:type" content="website">
-<meta property="og:title" content="NexT">
-<meta property="og:url" content="https://Kkkb.github.io/archives/2017/12/index.html">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python 列表生成式 生成器 迭代器">
+<meta property="og:url" content="https://Kkkb.github.io/2018/04/13/python-list-comprehensions-generator-iterator/index.html">
 <meta property="og:site_name" content="NexT">
-<meta property="og:description" content="过去的单纯美好">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-04-13T15:02:04.442Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NexT">
-<meta name="twitter:description" content="过去的单纯美好">
+<meta name="twitter:title" content="Python 列表生成式 生成器 迭代器">
 
 
 
@@ -131,7 +130,7 @@
 
 
 
-  <link rel="canonical" href="https://Kkkb.github.io/archives/2017/12/"/>
+  <link rel="canonical" href="https://Kkkb.github.io/2018/04/13/python-list-comprehensions-generator-iterator/"/>
 
 
 
@@ -146,7 +145,7 @@
     })();
 </script>
 
-  <title>归档 | NexT</title>
+  <title>Python 列表生成式 生成器 迭代器 | NexT</title>
   
 
 
@@ -205,7 +204,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -299,74 +298,158 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
-
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 11 篇日志。 继续努力。
-      </span>
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2017">2017</h1>
-          </div>
-        
-        
-
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://Kkkb.github.io/2018/04/13/python-list-comprehensions-generator-iterator/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="K_B">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar3.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NexT">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017/12/22/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Python 列表生成式 生成器 迭代器</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-12-22T22:44:34+08:00"
-              content="2017-12-22" >
-          12-22
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-13T20:20:46+08:00">
+                2018-04-13
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
 
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
+      
 
+      
+        <script src="\assets\js\APlayer.min.js"> </script><p class="description"></p>
+
+<!--img src="https://" alt="" style="width:100%" /-->
+<a id="more"></a>
+<h2 id="列表生成式-List-Comprehensions"><a href="#列表生成式-List-Comprehensions" class="headerlink" title="列表生成式(List Comprehensions)"></a>列表生成式(List Comprehensions)</h2><p>用于快速生成列表</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>[x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">6</span>)]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br></pre></td></tr></table></figure>
+<h2 id="生成器-generator"><a href="#生成器-generator" class="headerlink" title="生成器(generator)"></a>生成器(generator)</h2><p>创建generator的方法有两种<br>第一种</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>(x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">6</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>&lt;generator object &lt;genexpr&gt; at <span class="number">0x053DA030</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>list((x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">6</span>)))</span><br></pre></td></tr></table></figure>
+<p>第二种<br>带有yield语句的函数是生成器<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#g.py#</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fn</span><span class="params">()</span>:</span></span><br><span class="line">	print(<span class="string">"First step"</span>)</span><br><span class="line">	<span class="keyword">yield</span> <span class="number">1</span></span><br><span class="line">	print(<span class="string">"Second step"</span>)</span><br><span class="line">	<span class="keyword">yield</span> <span class="number">2</span></span><br><span class="line">	print(<span class="string">"Third step"</span>)</span><br><span class="line">	<span class="keyword">yield</span> <span class="number">3</span></span><br></pre></td></tr></table></figure></p>
+<p>使用生成器</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">from</span> g <span class="keyword">import</span> fn</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>g = fn()</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>next(g)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>First step</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>next(g)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>Second step</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">2</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>next(g)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>Third step</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>next(g)</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File <span class="string">"&lt;stdin&gt;"</span>, line <span class="number">1</span>, <span class="keyword">in</span> &lt;module&gt;</span><br><span class="line">StopIteration</span><br></pre></td></tr></table></figure>
+<h2 id="迭代器-Iterator"><a href="#迭代器-Iterator" class="headerlink" title="迭代器(Iterator)"></a>迭代器(Iterator)</h2><p>可在for循环中使用的对象是可迭代对象(iterable)</p>
+<p>可在<code>next</code>方法中使用的对象是迭代器(iterator)</p>
+<p>所有生成器都是迭代器</p>
+<hr>
+      
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/python/" rel="tag"><i class="fa fa-tag"></i> python</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/11/python-decorator/" rel="next" title="Python装饰器">
+                <i class="fa fa-chevron-left"></i> Python装饰器
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -396,8 +479,17 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -538,6 +630,22 @@ show_date_time();
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#列表生成式-List-Comprehensions"><span class="nav-text">列表生成式(List Comprehensions)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生成器-generator"><span class="nav-text">生成器(generator)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#迭代器-Iterator"><span class="nav-text">迭代器(Iterator)</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
         <div class="back-to-top">
@@ -657,6 +765,10 @@ show_date_time();
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
