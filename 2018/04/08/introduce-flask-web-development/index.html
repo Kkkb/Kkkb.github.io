@@ -101,7 +101,7 @@
 <meta property="og:description" content="Flask是一个用于开发web应用的微型框架，基于Python">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://uploads.toptal.io/blog/image/91961/toptal-blog-image-1452784558794-7851992813e17ce0d5ca9802cf7ac719.jpg">
-<meta property="og:updated_time" content="2018-04-13T02:18:03.409Z">
+<meta property="og:updated_time" content="2018-04-16T14:13:57.700Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Flask">
 <meta name="twitter:description" content="Flask是一个用于开发web应用的微型框架，基于Python">
@@ -357,6 +357,28 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
 
@@ -395,6 +417,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
 <h2 id="定义路由"><a href="#定义路由" class="headerlink" title="定义路由"></a>定义路由</h2><p>route()装饰器将函数和URL建立联系,从而定义一个路由<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@app.route('/')</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">index</span><span class="params">()</span>:</span></span><br><span class="line">	<span class="keyword">return</span> <span class="string">'&lt;h1&gt;Hello, world!&lt;/h1&gt;'</span></span><br></pre></td></tr></table></figure></p>
 <p>像index()这样的函数称为视图函数(view function)</p>
 <h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">	app.run(debug=<span class="keyword">True</span>)</span><br></pre></td></tr></table></figure>
+<p>使用浏览器访问<a href="http://localhost:5000/，可见Hello" target="_blank" rel="noopener">http://localhost:5000/，可见Hello</a>, world!</p>
 <h1 id="一些关键概念"><a href="#一些关键概念" class="headerlink" title="一些关键概念"></a>一些关键概念</h1><h2 id="上下文"><a href="#上下文" class="headerlink" title="上下文"></a>上下文</h2><p>current_app</p>
 <p>g</p>
 <p>request</p>
@@ -405,7 +428,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
 <p>after_request</p>
 <p>teardown_request</p>
 <h2 id="响应"><a href="#响应" class="headerlink" title="响应"></a>响应</h2><p>make_response</p>
-<h1 id="WSGI"><a href="#WSGI" class="headerlink" title="WSGI"></a>WSGI</h1><p>WSGI指web服务器网关接口，是实现服务器和Python程序之间通信的协议<br><img src="https://uploads.toptal.io/blog/image/91961/toptal-blog-image-1452784558794-7851992813e17ce0d5ca9802cf7ac719.jpg" style="width: 60%"></p>
+<h1 id="WSGI"><a href="#WSGI" class="headerlink" title="WSGI"></a>WSGI</h1><p>WSGI指web服务器网关接口，是实现服务器和Python web应用程序或框架之间通信的协议<br><img src="https://uploads.toptal.io/blog/image/91961/toptal-blog-image-1452784558794-7851992813e17ce0d5ca9802cf7ac719.jpg" style="width: 60%"></p>
 <p>该协议规定Python程序是一个可调用(callable)对象，接收两个参数，分别是<code>environ</code>和<code>start_response</code>，这两个参数由服务器提供。其中<code>environ</code>是一个包含请求信息的字典，<code>start_response</code>是一个函数，接收<code>status</code>和<code>response_headers</code>两个参数</p>
 <p>下面两个例子是符合以上要求的Python程序</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">simple_app</span><span class="params">(environ, start_response)</span>:</span></span><br><span class="line">	<span class="string">"""Simplest possible application object"""</span></span><br><span class="line">	status = <span class="string">'200 OK'</span></span><br><span class="line">	response_headers = [([<span class="string">'Content-type'</span>, <span class="string">'text/plain'</span>])]</span><br><span class="line">	start_response(status, response_headers)</span><br><span class="line">	<span class="keyword">return</span> [<span class="string">'Hello world!\n'</span>]</span><br></pre></td></tr></table></figure>
@@ -442,8 +465,8 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/02/18/python_symbol_and_character/" rel="next" title="python中的词与符号">
-                <i class="fa fa-chevron-left"></i> python中的词与符号
+              <a href="/2018/02/18/python_symbol_and_character/" rel="next" title="Python中的关键字与符号">
+                <i class="fa fa-chevron-left"></i> Python中的关键字与符号
               </a>
             
           </div>
@@ -546,7 +569,7 @@ const loadScript = function loadScript(c,b){var a=document.createElement("script
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
