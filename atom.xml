@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Kkkb.github.io/"/>
-  <updated>2018-04-16T14:18:47.696Z</updated>
+  <updated>2018-05-03T15:47:09.203Z</updated>
   <id>https://Kkkb.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毕业季</title>
+    <link href="https://Kkkb.github.io/2018/05/03/sayGoodbye/"/>
+    <id>https://Kkkb.github.io/2018/05/03/sayGoodbye/</id>
+    <published>2018-05-03T15:36:26.000Z</published>
+    <updated>2018-05-03T15:47:09.203Z</updated>
+    
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p class="description">追逐风的自由</p><p><img src="http://p1wqtw67e.bkt.clouddn.com/ev.jpg" alt="" style="width:100%"></p><a id="more"></a><h2 id="٩-๑-gt-◡-lt-๑-۶"><a href="#٩-๑-gt-◡-lt-๑-۶" class="headerlink" title="٩(๑&gt;◡&lt;๑)۶"></a>٩(๑&gt;◡&lt;๑)۶</h2><p><img src="http://p1wqtw67e.bkt.clouddn.com/haha.jpg" alt="" style="width:100%"></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;追逐风的自由&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://p1wqtw67e.bkt.clouddn.com/ev.jpg&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="乐" scheme="https://Kkkb.github.io/categories/%E4%B9%90/"/>
+    
+    
+      <category term="Life" scheme="https://Kkkb.github.io/tags/Life/"/>
+    
+  </entry>
   
   <entry>
     <title>Python 列表生成式 生成器 迭代器</title>
