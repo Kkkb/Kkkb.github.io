@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Kkkb.github.io/"/>
-  <updated>2018-05-09T13:32:22.074Z</updated>
+  <updated>2018-05-11T02:25:29.676Z</updated>
   <id>https://Kkkb.github.io/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>第一次面试总结</title>
+    <link href="https://Kkkb.github.io/2018/05/11/Interview-summary/"/>
+    <id>https://Kkkb.github.io/2018/05/11/Interview-summary/</id>
+    <published>2018-05-11T02:02:51.000Z</published>
+    <updated>2018-05-11T02:25:29.676Z</updated>
+    
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p class="description">2018 年 5 月 10 日，面试珠海汇流信息技术有限公司的软件开发实习生。</p><p><img src="https://" alt="" style="width:100%"></p><a id="more"></a><h2 id="面试邀请函"><a href="#面试邀请函" class="headerlink" title="面试邀请函"></a>面试邀请函</h2><p>您好！ 我是珠海汇流信息技术有限公司的人力资源部林小姐，非常感谢您对我们公司的关注； 看了你的简历，感觉基本符合我们的软件开发实习生的招聘要求，特邀你来2018年5月10日14:00我司面试（整个面试大概需要2个小时），请带上纸质版简历。. 公司详情官网：<a href="http://www.i-confluence.com" target="_blank" rel="noopener">http://www.i-confluence.com</a> 公司地址：中国•珠海•香洲区•唐家湾镇科技七路1号 中电高科产业园 二栋3单元2楼 珠海汇流信息技术有限公司总部 公交车72A (创新六路站下车)——-步行200米至中电高科产业园 公交车3A  (海岸生活区下车)——-步行1000米至中电高科产业园 （温馨导航提醒：走进中电高科技产业园正门后，往左边的二栋方向前进（左手边的楼层是二栋，右手边的楼层是一栋），走到三单元的门口上2楼即可到达我司（第一个红色门口是一单元，第三个红色门口是三单元）） 珠海汇流公司2018年招聘简章详情：<a href="https://g.eqxiu.com/s/YXX12KPY" target="_blank" rel="noopener">https://g.eqxiu.com/s/YXX12KPY</a> 如有其它疑问可以直接拨打我的电话13631238207，谢谢！           期待与你的会面！</p><h2 id="行程"><a href="#行程" class="headerlink" title="行程"></a>行程</h2><p>早上 10 点出发，下午 1 点半到达，绕了一会，地点有点偏</p><h2 id="面试过程"><a href="#面试过程" class="headerlink" title="面试过程"></a>面试过程</h2><p>前台签到，接着拿了个人信息表，性格测试表，价值观测试表，到电脑机房填，后来做打字测试。<br>然后一个懂的技术大佬提问题，介绍公司情况，做金融、银行业务服务的，主要用 <code>JavaScript</code>，<code>CoffeeScript</code> 写代码，<code>MongoDB</code> 做数据库，前端 <code>Vue.js</code><br>感觉面试官看中基础，一看我专业不对口，就一脸嫌弃。更重要的是自己水平的确不行…。</p><hr>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p class=&quot;description&quot;&gt;2018 年 5 月 10 日，面试珠海汇流信息技术有限公司的软件开发实习生。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://&quot; alt=&quot;&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="面试" scheme="https://Kkkb.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>面试准备</title>
-    <link href="https://Kkkb.github.io/2018/05/09/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
-    <id>https://Kkkb.github.io/2018/05/09/面试准备/</id>
+    <link href="https://Kkkb.github.io/2018/05/09/Interview-preparation/"/>
+    <id>https://Kkkb.github.io/2018/05/09/Interview-preparation/</id>
     <published>2018-05-09T02:38:40.000Z</published>
-    <updated>2018-05-09T13:32:22.074Z</updated>
+    <updated>2018-05-11T02:04:29.771Z</updated>
     
     <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p class="description">收到一份面试邀请，毕竟第一次，有必要准备一下</p><p><img src="http://p1wqtw67e.bkt.clouddn.com/27.jpg" alt="" style="width:100%"></p><a id="more"></a><h2 id="自问自答"><a href="#自问自答" class="headerlink" title="自问自答"></a>自问自答</h2><ul><li><p>遇到问题的解决方案？<br>最早的时候用百度，直接搜索问题描述，就连标点符号也带上，找到 CSDN 博客园 之类的，运气不好问题久久没解决还会被绕晕。后来学习<a href="https://github.com/XX-net/XX-Net" target="_blank" rel="noopener">科学上网</a>用 <a href="https://www.google.com/" target="_blank" rel="noopener">Google</a> ，把错误代码复制粘贴一搜，在 <a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a> 或 <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> 之类一般能迅速找到答案。</p></li><li><p>谈一谈自学历程<br>高考后的暑假看过几十页 c 语言相关的书，大学意向专业是计算机，只可惜分数不够被调配。2017 年 8 月开始尝试了解编程（说是编程可能不准确，了解更多的是具体的技术，故基础薄弱，有些急功近利），看 Java 培训视频，用 HTML CSS 搭建<a href="https://github.com/Kkkb/css-beginner" target="_blank" rel="noopener">简单页面</a>，模仿着做了一个人博客 <a href="https://kkkb.github.io/css-beginner/blogY/">blogY</a>，想向科班学习，看了一些计算机基础视频，补补常识。换一个博客主题 <a href="https://kkkb.github.io/">NexT</a>，试着添加<a href="http://gkbi.top/2017/12/22/hello-world/" target="_blank" rel="noopener">音乐</a>，<a href="https://kkkb.github.io/2018/01/06/dplayer-test/">视频</a>播放器。了解到<a href="https://zhuanlan.zhihu.com/p/19959253" target="_blank" rel="noopener">编程入门指南</a>，开始学习 Python，了解基础，用 Flask 搭建一个社交博客系统 <a href="https://kflask.herokuapp.com/" target="_blank" rel="noopener">kFlask</a> 并部署上  <a href="https://www.heroku.com/" target="_blank" rel="noopener">heroku</a>，装过 Linux 虚拟机，JavaScript <a href="https://kkkb.github.io/Game/Six/game.html">小游戏</a>，后来看了一些网络，数据库，算法等入门书，</p></li><li><p>为什么选择我们公司？<br>知道自己才学习几个月，水平极其有限，但我认为那些技术花时间就可以学会，并且很乐意去学。加之外包公司项目多，节奏快，能学习更多。</p></li></ul><h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><ul><li>写一个冒泡排序</li></ul><p>C<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubble_sort</span><span class="params">(<span class="keyword">int</span> arr[], <span class="keyword">int</span> len)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i, j, temp;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++)</span><br><span class="line">        <span class="keyword">for</span> (j = <span class="number">0</span>; j &lt; len - <span class="number">1</span> - i; j++)</span><br><span class="line">            <span class="keyword">if</span> (arr[j] &gt; arr[j + <span class="number">1</span>]) &#123;</span><br><span class="line">                temp = arr[j];</span><br><span class="line">                arr[j] = arr[j + <span class="number">1</span>];</span><br><span class="line">                arr[j + <span class="number">1</span>] = temp;</span><br><span class="line">            &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>Python<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">bubble_sorted</span><span class="params">(iterable)</span>:</span></span><br><span class="line">    new_list = list(iterable)</span><br><span class="line">    list_len = len(new_list)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(list_len - <span class="number">1</span>):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> range(list_len - <span class="number">1</span>, i, <span class="number">-1</span>):</span><br><span class="line">            <span class="keyword">if</span> new_list[j] &lt; new_list[j - <span class="number">1</span>]:</span><br><span class="line">                new_list[j], new_list[j - <span class="number">1</span>] = new_list[j - <span class="number">1</span>], new_list[j]</span><br><span class="line">    <span class="keyword">return</span> new_list</span><br></pre></td></tr></table></figure></p><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><p>说一下 Python 装饰器<br>Python 装饰器是一个装饰函数的函数，<code>@</code> 后面的函数名就是装饰器的函数名，可以给指定函数增加功能</p><h2 id="简历"><a href="#简历" class="headerlink" title="简历"></a>简历</h2><hr><h3 id="冯坤彬"><a href="#冯坤彬" class="headerlink" title="冯坤彬"></a>冯坤彬</h3><h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><ul><li>手机：15521114873</li><li>Email：gokunbin@gmail.com</li><li>QQ：1214664824</li></ul><h3 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h3><ul><li>冯坤彬/男/1995</li><li>本科/广东工业大学</li><li>即将毕业的大四学生(14级)</li><li>博客：<a href="https://kkkb.github.io/">https://kkkb.github.io/</a></li><li>Github：<a href="https://github.com/kkkb" target="_blank" rel="noopener">https://github.com/kkkb</a></li></ul><h3 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h3><ul><li><a href="https://github.com/Kkkb/flask-web" target="_blank" rel="noopener">flask-web</a>：基于 Python 的微型 Web 框架 Flask 搭建的社交博客系统 <a href="https://kflask.herokuapp.com/" target="_blank" rel="noopener">kFlask</a></li><li><a href="https://github.com/Kkkb/css-beginner" target="_blank" rel="noopener">HTML &amp; CSS</a>：一些简单的页面</li><li><a href="https://github.com/Kkkb/Game" target="_blank" rel="noopener">Game</a>：JavaScript 编写的<a href="http://kkkb.github.io/Game/Six/game.html">打砖块</a>游戏</li><li><a href="https://github.com/Kkkb/Kkkb.github.io" target="_blank" rel="noopener">NexT</a>：Hexo 主题 NexT 搭建的静态博客</li></ul><h3 id="技能清单"><a href="#技能清单" class="headerlink" title="技能清单"></a>技能清单</h3><ul><li>Web开发：Python</li><li>Web框架：Flask</li><li>前端框架：Bootstrap</li><li>数据库相关：MySQL</li><li>版本管理、文档和自动化部署工具：Git</li></ul><h3 id="学习历程"><a href="#学习历程" class="headerlink" title="学习历程"></a>学习历程</h3><p>本人大学专业是金属材料工程，2017 年 8 月 开始接触编程，学习了以下内容：</p><ul><li>跟着视频学习，了解一点 Java 基础</li><li>读 Head First HTML &amp; CSS，搭建几个简单<a href="http://kkkb.github.io/css-beginner/">页面</a></li><li>使用 Node.js 驱动的博客框架 Hexo 搭建个人博客 <a href="http://kkkb.github.io/css-beginner/blogY/">blogY</a>，<a href="https://kkkb.github.io/">NexT</a></li><li>学习 Python，了解基本语法<ul><li><a href="https://github.com/Kkkb/hello-world/tree/master/lpthw" target="_blank" rel="noopener">笨办法学 Python</a></li><li><a href="https://github.com/Kkkb/hello-world/tree/master/A-Byte-of-Python" target="_blank" rel="noopener">简明 Python 教程</a></li><li><a href="https://github.com/Kkkb/hello-world/tree/master/liaoxuefeng_python" target="_blank" rel="noopener">廖雪峰 Python</a></li><li><a href="https://github.com/Kkkb/flask-web" target="_blank" rel="noopener">Flask</a></li></ul></li><li>读「<a href="https://github.com/Kkkb/hello-world/tree/master/grokking-algorithm" target="_blank" rel="noopener">算法图解</a>」，了解算法与数据结构</li><li>读「<a href="https://github.com/Kkkb/hello-world/tree/master/HTTP" target="_blank" rel="noopener">图解 HTTP</a>」，了解网络</li><li>读「<a href="https://github.com/Kkkb/hello-world/blob/master/my-sql-crash-course/myschemas.sql" target="_blank" rel="noopener">SQL 必知必会</a>」，了解数据库</li></ul><h3 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h3><p>只学了一点，还有很多不懂，我的想法是，不懂就学，花时间总能学会。</p><p>感谢您花时间阅读我的简历，期待能有机会和您共事。</p><hr><p><img src="http://p1wqtw67e.bkt.clouddn.com/end-resume.png" alt="resume"></p>]]></content>
     
@@ -35,6 +57,8 @@
     
       <category term="技术" scheme="https://Kkkb.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
+    
+      <category term="面试" scheme="https://Kkkb.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
   </entry>
   
@@ -130,9 +154,9 @@
       <category term="技术" scheme="https://Kkkb.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Flask" scheme="https://Kkkb.github.io/tags/Flask/"/>
-    
       <category term="Python" scheme="https://Kkkb.github.io/tags/Python/"/>
+    
+      <category term="Flask" scheme="https://Kkkb.github.io/tags/Flask/"/>
     
   </entry>
   
